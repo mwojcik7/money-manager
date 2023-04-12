@@ -13,7 +13,7 @@ import IconFormField from 'components/molecules/IconFormField/IconFormField';
 import { StyledInputColor } from 'components/atoms/InputColor/InputColor.styles';
 import { StyledInputRadioOrCheckbox } from 'components/atoms/StyledInputRadioOrCheckbox/StyledInputRadioOrCheckbox.styles';
 import { StyledForm } from 'components/organisms/StyledForm/StyledForm.styles';
-import { Wrapper } from 'views/AddAccounts.styles';
+import { Wrapper } from 'components/organisms/AddAccount/AddAccount.styles';
 
 interface PropsInterface {
   handleClose: (e?: React.ChangeEvent<HTMLInputElement>) => void;

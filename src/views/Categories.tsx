@@ -6,7 +6,7 @@ import Modal from 'components/organisms/Modal/Modal';
 import { TypeType, useCategoriesContext } from 'providers/CategoriesProvider';
 import CategoriesList from 'components/organisms/CategoriesList/CategoriesList';
 import IncomeExpenseSwitcher from 'components/organisms/IncomeExpenseSwitcher/IncomeExpenseSwitcher';
-import AddCategory from 'views/AddCategory';
+import AddCategory from 'components/organisms/AddCategory/AddCategory';
 
 import { Wrapper } from 'views/Categories.styles';
 import { StyledHeader } from 'components/atoms/Header/Header.styles';

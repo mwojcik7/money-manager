@@ -10,7 +10,7 @@ import FormField from 'components/molecules/FormField/FormField';
 import DownshiftSelect from 'components/organisms/DownshiftSelect/DownshiftSelect';
 
 import { StyledForm } from 'components/organisms/StyledForm/StyledForm.styles';
-import { Wrapper } from 'views/AddTransactions.styles';
+import { Wrapper } from 'components/organisms/AddTransaction/AddTransaction.styles';
 
 interface PropsInterface {
   handleClose: () => void;

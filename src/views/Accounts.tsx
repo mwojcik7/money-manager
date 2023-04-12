@@ -6,7 +6,7 @@ import Modal from 'components/organisms/Modal/Modal';
 import { useAccountsContext } from 'providers/AccountsProvider';
 import TotalBalance from 'components/molecules/TotalBalance/TotalBalance';
 import AccountsList from 'components/organisms/AccountsList/AccountsList';
-import AddAccount from 'views/AddAccount';
+import AddAccount from 'components/organisms/AddAccount/AddAccount';
 
 import { Wrapper } from 'views/Accounts.styles';
 import { StyledHeader } from 'components/atoms/Header/Header.styles';

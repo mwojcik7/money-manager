@@ -12,7 +12,7 @@ import DownshiftSelect from 'components/organisms/DownshiftSelect/DownshiftSelec
 
 import { StyledInputColor } from 'components/atoms/InputColor/InputColor.styles';
 import { StyledForm } from 'components/organisms/StyledForm/StyledForm.styles';
-import { Wrapper } from 'views/AddCategory.styles';
+import { Wrapper } from 'components/organisms/AddCategory/AddCategory.styles';
 
 interface PropsInterface {
   activeType: TypeType;

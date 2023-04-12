@@ -7,7 +7,7 @@ import Modal from 'components/organisms/Modal/Modal';
 import { TransactionWithIdInterface, TransactionsInterface, useTransactionsContext } from 'providers/TransactionsProvider';
 import MonthSwitcher from 'components/organisms/MonthSwitcher/MonthSwitcher';
 import TransactionsList from 'components/organisms/TransactionsList/TransactionsList';
-import AddTransaction from 'views/AddTransaction';
+import AddTransaction from 'components/organisms/AddTransaction/AddTransaction';
 
 import { faIcons } from 'assets/styles/faIcons';
 import { StyledHeader } from 'components/atoms/Header/Header.styles';
