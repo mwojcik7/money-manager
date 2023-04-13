@@ -2,7 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Technologies](#technologies-used)
 
 ## General info
 This project was created to consolidate knowledge about React, Typescript and check how Firebase works.
