@@ -5,7 +5,7 @@ type PropsInterface = {
 };
 
 const FormButton = ({ label = null }: PropsInterface) => {
-  return <StyledButton>{label}</StyledButton>;
+  return <StyledButton type="submit">{label}</StyledButton>;
 };
 
 export default FormButton;
