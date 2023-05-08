@@ -41,10 +41,10 @@ const AddCategory = ({ activeType, handleClose }: PropsInterface) => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const value = e.target.type === 'checkbox' ? { [e.target.name]: e.target.checked } : e.target.type === 'radio' ? { [e.target.name]: e.target.id } : { [e.target.name]: e.target.value };
-    setState({
-      ...state,
+    setState((prevState) => ({
+      ...prevState,
       ...value,
-    });
+    }));
   };
 
   const editCategory = async (editedCategory: { [index: string]: string | number | boolean | TypeType }): Promise<void> => {

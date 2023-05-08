@@ -39,10 +39,10 @@ const AddAccount = ({ handleClose }: PropsInterface) => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const value: { [index: string]: string | boolean } = e.target.type === 'checkbox' ? { [e.target.name]: e.target.checked } : e.target.type === 'radio' ? { [e.target.name]: e.target.id } : { [e.target.name]: e.target.value };
-    setState({
-      ...state,
+    setState((prevState) => ({
+      ...prevState,
       ...value,
-    });
+    }));
   };
 
   const editAccount = async (editedAccount: { [index: string]: string | number | boolean }): Promise<void> => {
